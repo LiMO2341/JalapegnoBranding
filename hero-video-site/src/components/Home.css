@@ -1,0 +1,246 @@
+/* Fondo general */
+.home {
+    background-color: #2c2829;
+    background-image: url("../assets/fondo-home.jpg");
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    /* ocupa casi todo el ancho (5% de margen total) */
+    background-position: top center;
+    /* centrada arriba */
+   
+    min-height: 100%;
+    /* altura del fondo (ajústalo según necesites) */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    color: #2c2829;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #2c2829;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+.navbar-logo img {
+    height: 40px;
+    padding-left: 10px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-menu li a {
+    color: #fcfcfb;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 32px;
+    padding-left: 5px;
+
+}
+
+.hero-section {
+  padding-top: 120px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 🔹 contenedor principal de texto + imagen */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: nowrap; /* mantiene texto e imagen en una fila */
+}
+
+/* 🔹 texto */
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+  color: #2c2829;
+}
+
+.hero-text h1 {
+  font-size: 76px;
+  font-family: 'Rammetto One', sans-serif;
+  color: #2c2829;
+  margin-bottom: 20px;
+}
+
+.parrafo-somos {
+  font-size: 27px; /* 👈 reduce el tamaño del texto para que no llene toda la pantalla */
+  line-height: 1.2;
+  color: #2c2829;
+}
+
+/* 🔹 imagen */
+.about-image {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* Estilo general del título */
+.titulo-somos {
+  font-family: 'Rammetto One', sans-serif;
+  font-size: 7rem; /* 👈 tamaño general grande */
+  font-weight: 900;
+  line-height: 0.8; /* mantiene las dos líneas más juntas */
+  color: #2c2829;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* QUIÉNES */
+.titulo-somos .linea-uno {
+  display: block;
+  font-size: 1.1em; /* relativo al tamaño base */
+ 
+}
+
+/* SOMOS */
+.titulo-somos .linea-dos {
+  display: block;
+  font-size: 1.2em; /* ligeramente más grande que la primera */
+}
+
+
+
+
+
+
+.highlight-red {
+    background-color: #ff531e;
+    color: #fcfcfb;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+.highlight-yellow {
+    background-color: #e5ff46;
+    color: #2c2829;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+.highlight-pink {
+    background-color: #ff60c0;
+    color: #2c2829;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+.highlight-green {
+    background-color: #32ac6e;
+    color: #2c2829;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+
+.highlight-deepyellow {
+    background-color: #f6be15;
+    color: #2c2829;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+
+/*valores*/
+
+.about-section {
+     font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  text-align: center;
+
+ 
+  width: 80%;
+  margin: 100px auto;
+  font-size: 3rem;
+  line-height: 2;               /* 👈 más aire entre líneas */
+  color: #2c2829;
+  word-wrap: break-word;        /* 👈 evita que se corte texto largo */
+  overflow-wrap: break-word;    /* 👈 compatibilidad adicional */
+  text-align: left;
+  
+}
+
+
+
+/* Comentarios */
+.comments-section {
+    /*  background-color: #f4f4f4;*/
+    padding: 50px 0;
+    text-align: center;
+}
+
+.comment-box {
+    /* background-color: white;*/
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    font-style: italic;
+}
+
+.scroll-buttons button {
+    margin: 10px;
+    padding: 6px 10px;
+    border: none;
+    background-color: #c357dd;
+    color: #fcfcfb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #2c2829;
+    color: #fcfcfb;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+
+.footer a {
+    color: #c357dd;
+    text-decoration: none;
+}
