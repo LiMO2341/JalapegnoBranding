@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li><a href="#about">Quiénes somos</a></li>
                 <li><a href="#services">Servicios</a></li>
                 <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact"className="contacto">Contacto</a></li>
                 <li>
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="navbar-icon" />

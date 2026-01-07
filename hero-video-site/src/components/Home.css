@@ -4,12 +4,10 @@
     background-image: url("../assets/fondo-home.jpg");
     background-repeat: no-repeat;
     background-size: 95% auto;
-    /* ocupa casi todo el ancho (5% de margen total) */
     background-position: top center;
-    /* centrada arriba */
+   
    
     min-height: 100%;
-    /* altura del fondo (ajústalo según necesites) */
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -36,6 +34,10 @@
     z-index: 100;
 }
 
+.navbar-icon {
+  font-size: 20px;
+}
+
 
 .navbar-logo img {
     height: 40px;
@@ -55,9 +57,17 @@
     text-decoration: none;
     font-weight: 500;
     padding-right: 32px;
-    padding-left: 5px;
+    padding-left: 35px;
 
 }
+
+.contacto {
+  background-color: #c357dd;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+
 
 .hero-section {
   padding-top: 120px;
@@ -65,16 +75,16 @@
   margin: 0 auto;
 }
 
-/* 🔹 contenedor principal de texto + imagen */
+/* contenedor principal de texto + imagen */
 .hero-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: nowrap; /* mantiene texto e imagen en una fila */
+  flex-wrap: nowrap; 
 }
 
-/* 🔹 texto */
+/*  texto */
 .hero-text {
   flex: 1;
   max-width: 50%;
@@ -89,12 +99,12 @@
 }
 
 .parrafo-somos {
-  font-size: 27px; /* 👈 reduce el tamaño del texto para que no llene toda la pantalla */
+  font-size: 27px; 
   line-height: 1.2;
   color: #2c2829;
 }
 
-/* 🔹 imagen */
+/* imagen */
 .about-image {
   flex: 1;
   max-width: 45%;
@@ -113,9 +123,9 @@
 /* Estilo general del título */
 .titulo-somos {
   font-family: 'Rammetto One', sans-serif;
-  font-size: 7rem; /* 👈 tamaño general grande */
+  font-size: 7rem; 
   font-weight: 900;
-  line-height: 0.8; /* mantiene las dos líneas más juntas */
+  line-height: 0.8; /* interlineado */
   color: #2c2829;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -124,14 +134,14 @@
 /* QUIÉNES */
 .titulo-somos .linea-uno {
   display: block;
-  font-size: 1.1em; /* relativo al tamaño base */
+  font-size: 1.1em; 
  
 }
 
 /* SOMOS */
 .titulo-somos .linea-dos {
   display: block;
-  font-size: 1.2em; /* ligeramente más grande que la primera */
+  font-size: 1.2em; 
 }
 
 
@@ -189,25 +199,40 @@
   width: 80%;
   margin: 100px auto;
   font-size: 3rem;
-  line-height: 2;               /* 👈 más aire entre líneas */
+  line-height: 2;               
   color: #2c2829;
-  word-wrap: break-word;        /* 👈 evita que se corte texto largo */
-  overflow-wrap: break-word;    /* 👈 compatibilidad adicional */
+  word-wrap: break-word;        
+  overflow-wrap: break-word;   
   text-align: left;
   
 }
 
 
 
-/* Comentarios */
+/* COMENTARIOS */
+
+/*título qué opinan los clientes*/
+
+.opinion-clientes {
+  background-color: #f6be15;
+  font-size:40px ;
+ font-family: "Rammetto One", sans-serif;
+ display: inline-block;
+ padding: 20px 20px;
+border-radius: 15px;
+margin-bottom: 250px;
+}
+
+/*caja de comentarios*/
+
 .comments-section {
-    /*  background-color: #f4f4f4;*/
+    /* background-color: #f4f4f4;*/
     padding: 50px 0;
     text-align: center;
 }
 
 .comment-box {
-    /* background-color: white;*/
+    background-color: white;
     margin: 10px auto;
     padding: 20px;
     border-radius: 12px;

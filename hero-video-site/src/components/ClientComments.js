@@ -22,7 +22,7 @@ const ClientComments = () => {
 
   return (
     <section className="comments-section" id="comments">
-      <h2>Qué dicen los clientes</h2>
+      <h2 className="opinion-clientes">QUÉ DICEN LOS CLIENTES</h2>
       <div className="comments-container">
         <div className="comment-box">
           {comments[visibleIndex]}
